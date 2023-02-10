@@ -1,21 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.afa3e42f.css",
-    "main.js": "/static/js/main.614b7edf.js",
+    "main.css": "/static/css/main.c9932f5b.css",
+    "main.js": "/static/js/main.692d071c.js",
+    "static/media/Morning.jpg": "/static/media/Morning.c49f9770ae212790730a.jpg",
+    "static/media/BaroqueBackground.jpg": "/static/media/BaroqueBackground.441eca839cbba7fc878c.jpg",
+    "static/media/ImpressionistBackground.jpg": "/static/media/ImpressionistBackground.ce9ebfc602f049d0d4c9.jpg",
+    "static/media/ClassicalBackground.jpg": "/static/media/ClassicalBackground.9ae1fe3fdfd9ddfcf6ee.jpg",
+    "static/media/RomanticBackground.jpg": "/static/media/RomanticBackground.0e2685936837e9662d67.jpg",
+    "static/media/ModernistBackground.jpg": "/static/media/ModernistBackground.ff185484543d5c041563.jpg",
+    "static/media/schoenberg.png": "/static/media/schoenberg.e4caae796e8714dbdf7d.png",
+    "static/media/debussy.png": "/static/media/debussy.df92df599c0acd4bd644.png",
     "static/media/chopin.png": "/static/media/chopin.a8364384bd0d28bb6f34.png",
     "static/media/mozart.png": "/static/media/mozart.81fe3537bbe22c4f1218.png",
     "static/media/bach.png": "/static/media/bach.47ec747cdf3ddc394e8d.png",
+    "static/media/Modern_In_A_Landscape_J.Cage_.mxl": "/static/media/Modern_In_A_Landscape_J.Cage_.3a864f3dd241123d2069.mxl",
     "static/media/Logo.svg": "/static/media/Logo.f034044cf7c70761ca466aeb66fa347d.svg",
     "static/media/DownArrow.svg": "/static/media/DownArrow.3e6db323b15e413d54ec7eb6a477c198.svg",
     "static/media/UpArrow.svg": "/static/media/UpArrow.104373eaa5c56750b3c6a4e891716870.svg",
     "static/media/Checkmark.svg": "/static/media/Checkmark.1fdc24e1c91ef4bfcb38fc2d33029dd0.svg",
     "index.html": "/index.html",
     "static/media/Play-Button.svg": "/static/media/Play-Button.cd7fcfd8fcd8601a16b9cca39ffef610.svg",
-    "main.afa3e42f.css.map": "/static/css/main.afa3e42f.css.map",
-    "main.614b7edf.js.map": "/static/js/main.614b7edf.js.map"
+    "main.c9932f5b.css.map": "/static/css/main.c9932f5b.css.map",
+    "main.692d071c.js.map": "/static/js/main.692d071c.js.map"
   },
   "entrypoints": [
-    "static/css/main.afa3e42f.css",
-    "static/js/main.614b7edf.js"
+    "static/css/main.c9932f5b.css",
+    "static/js/main.692d071c.js"
   ]
 }

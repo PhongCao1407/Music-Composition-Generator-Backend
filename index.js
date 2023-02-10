@@ -12,6 +12,7 @@ app.use(cors())
 app.use(express.static('build'))
 app.use(express.json())
 
+
 app.get('/baroque', async (req, res) => {
     res.set('Access-Control-Expose-Headers','*')
 
@@ -81,6 +82,56 @@ app.get('/romantic', async (req, res) => {
     })
 })
 
+app.get('/impressionist', async (req, res) => {
+    res.set('Access-Control-Expose-Headers','*')
+
+    const fileDirectory = './musicgenerator/Impressionist/'
+    fs.readdir(fileDirectory, (err, files) => {
+        randomFile = files[Math.floor(Math.random()*files.length)];
+
+        const headers = helper.getPieceDetails(randomFile) 
+
+        let options = {
+            root: fileDirectory,
+            headers: headers
+        }
+
+        res.sendFile(randomFile, 
+            options, 
+            (err) => {
+            res.end();
+            if (err) throw(err);
+        })
+    })
+})
+
+app.get('/modern', async (req, res) => {
+    res.set('Access-Control-Expose-Headers','*')
+
+    const fileDirectory = './musicgenerator/Modern/'
+    fs.readdir(fileDirectory, (err, files) => {
+        randomFile = files[Math.floor(Math.random()*files.length)];
+
+        const headers = helper.getPieceDetails(randomFile) 
+
+        let options = {
+            root: fileDirectory,
+            headers: headers
+        }
+
+        res.sendFile(randomFile, 
+            options, 
+            (err) => {
+            res.end();
+            if (err) throw(err);
+        })
+    })
+})
+
+// If a user refresh the page, it automatically go back to the default home page
+app.get('/*', function(req, res) {
+    res.redirect('./')
+  })
 
 
 // Deploy app to Port 3001
